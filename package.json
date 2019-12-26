@@ -1,10 +1,10 @@
 {
-  "name": "@kamataryo/sandbox-same-site-coolies",
+  "name": "@kamataryo/sandbox-same-site-cookies",
   "version": "1.0.0",
-  "bin": "server.mjs",
+  "bin": "bin.sh",
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "./bin.sh"
   }
 }
