@@ -237,8 +237,7 @@ const startServer = async () => {
       Object.keys(websites).forEach(domain =>
         console.log(`http://${domain} is listening...`)
       )
-    )
-    .on("error", () => console.log("aaa"));
+    );
 };
 
 startServer();
