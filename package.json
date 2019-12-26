@@ -1,7 +1,7 @@
 {
   "name": "@kamataryo/sandbox-same-site-cookies",
   "description": "An instant server to try the SameSite cookie attribute.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": "bin.sh",
   "type": "module",
   "license": "MIT",
