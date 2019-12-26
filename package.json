@@ -1,6 +1,10 @@
 {
-  "name": "sandbox-same-site-coolies",
+  "name": "@kamataryo/sandbox-same-site-coolies",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "bin": "server.mjs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.mjs"
+  }
 }
