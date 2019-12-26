@@ -2,12 +2,20 @@
 
 This is an instant server to try `SameSite=Strict|Lax|None` cookies.
 
+** CAUTION **
+This program requires privilege to run.
+Be aware what you are doing and execute with on your lisk.
+
 ## usage
 
 You can try with:
 
 ```shell
 $ sudo npx @kamataryo/sandbox-same-site-cookies
+# or
+$ git clone git@github.com:kamataryo/sandbox-same-site-cookies.git
+$ cd sandbox-same-site-cookies
+$ sudo npm start
 ```
 
 Then open [http://strict.test](http://strict.test).
@@ -17,7 +25,7 @@ Then open [http://strict.test](http://strict.test).
 ## Q&A
 
 - Q: Why is `sudo` required?
-- A: This command edit the `/etc/hosts` to use multiple local domains.
+- A: This command edit the `/etc/hosts` to use multiple local domains. See [bin.sh](./bin.sh) for details.
 
 - Q: How can I try `SameSite`?
 - A:
